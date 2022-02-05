@@ -1,0 +1,49 @@
+//Calculator Program
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+int main(){
+    string operation;
+    cout << "1. Addition (+) \n";
+    cout << "2. Subtraction (-) \n"; 
+    cout << "3. Multiplication (*) \n";
+    cout << "4. Division (/) " << "\n\n";
+    cout << "Select the operation above: ";
+    cin >> operation;
+
+    if (operation == "+"){
+        double a, b;
+        cout << "Input the first number: ";
+        cin >> a;
+        cout << "Input another number: ";
+        cin >> b;
+        cout << "Here is the result: ";
+        cout << a + b;
+    } else if (operation == "-"){
+        double a, b;
+        cout << "Input the first number: ";
+        cin >> a;
+        cout << "Input another number: ";
+        cin >> b;
+        cout << "Here is the result: ";
+        cout << a - b;
+    } else if (operation == "*"){
+        double a, b;
+        cout << "Input the first number: ";
+        cin >> a;
+        cout << "Input another number: ";
+        cin >> b;
+        cout << "Here is the result: ";
+        cout << a * b;
+    } else if (operation == "/"){
+        double a, b;
+        cout << "Input the first number: ";
+        cin >> a;
+        cout << "Input another number: ";
+        cin >> b;
+        cout << "Here is the result: ";
+        cout << a / b;
+    }
+    return 0;
+}
